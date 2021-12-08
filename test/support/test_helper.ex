@@ -36,5 +36,8 @@ defmodule DealerReviewScraper.TestHelper do
     bypass
   end
 
+  @doc """
+    Receives a bypass and returns a url base to be used in `ReviewTest`
+  """
   def endpoint_url(bypass), do: "http://localhost:#{bypass.port}/"
 end
