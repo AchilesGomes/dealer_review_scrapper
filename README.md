@@ -23,4 +23,6 @@ Criteria used to take five most positive reviews:
   second param = dealer url
   - This should return five most positives reviews from "McKaig-Chevrolet-Buick-A-Dealer-For-The-People"
   - If you want to try a different dealer:
-    - DealerReviewScraper.list_reviews 2, "https://www.dealerrater.com/dealer/Joe-Bullard-Acura-review-36326"
+    ```
+    DealerReviewScraper.list_reviews 2, "https://www.dealerrater.com/dealer/Joe-Bullard-Acura-review-36326"
+    ```
