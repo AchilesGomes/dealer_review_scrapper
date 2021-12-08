@@ -17,12 +17,12 @@ Criteria used to take five most positive reviews:
 - If you want just: `iex -S mix` and let`s rock!
   - Inside of iex, just enter with:
   ```
+  DealerReviewScraper.list_reviews(amount_of_pages, url)
+  DealerReviewScraper.list_reviews(1, "https://www.dealerrater.com/dealer/Joe-Bullard-Acura-review-36326")
+  ```
+  - This should returns five most positivies reviews from first page of **Joe-Bullard-Acura**
+  - By default you can use like this:
+  ```
   DealerReviewScraper.list_reviews 1
   ```
-    - first param = amount of pages
-    - second param = dealer url
-  - This should return five most positives reviews from "McKaig-Chevrolet-Buick-A-Dealer-For-The-People"
-  - If you want to try a different dealer:
-    ```
-    DealerReviewScraper.list_reviews 2, "https://www.dealerrater.com/dealer/Joe-Bullard-Acura-review-36326"
-    ```
+  - This should return five most positives reviews from first page of "McKaig-Chevrolet-Buick-A-Dealer-For-The-People"
