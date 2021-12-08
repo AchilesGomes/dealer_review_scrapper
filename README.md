@@ -19,8 +19,8 @@ Criteria used to take five most positive reviews:
   ```
   DealerReviewScraper.list_reviews 1
   ```
-  first param = amount of pages
-  second param = dealer url
+    - first param = amount of pages
+    - second param = dealer url
   - This should return five most positives reviews from "McKaig-Chevrolet-Buick-A-Dealer-For-The-People"
   - If you want to try a different dealer:
     ```
